@@ -1,0 +1,11 @@
+{
+	"compilerOptions": {
+		"target": "es5",
+        "module": "system",
+        "moduleResolution": "node",
+		"outFile": "./dist/ts-fsa-minimal.js"
+	},
+	"files": [
+		"main.ts"
+	]
+}

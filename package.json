@@ -1,0 +1,22 @@
+{
+  "name": "ts-fsa-minimal",
+  "version": "1.0.0",
+  "description": "Minimal repro of an issue with typescript-fsa when using System.js",
+  "main": "index.html",
+  "scripts": {
+    "build": "tsc",
+    "serve": "tsc && node node_modules/http-server/bin/http-server"
+  },
+  "author": "irobot",
+  "license": "ISC",
+  "dependencies": {
+    "redux": "^3.6.0",
+    "systemjs": "^0.20.14",
+    "typescript": "^2.3.4",
+    "typescript-fsa": "^2.3.0",
+    "typescript-fsa-reducers": "^0.4.3"
+  },
+  "devDependencies": {
+    "http-server": "^0.10.0"
+  }
+}

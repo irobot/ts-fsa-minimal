@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>typescript-fsa-minimal</title>
+  <style>
+    .error {
+      color: #e85b5b;
+    }
+    .success {
+      color: green;
+    }
+  </style>
+  <script src="node_modules/systemjs/dist/system.js"></script>
+  <script src="system.config.js"></script>
+  <script src="dist/ts-fsa-minimal.js"></script>
+  <script type="application/javascript">
+    System.import("main");
+  </script>
+</head>
+<body>
+  <div id="error" class="error">
+    <h1>Ack! You should not be seeing this!</h1>
+    <p>See the developer tools console for details.</p>
+    <p>To fix, uncomment line #5 in <code>dist/system.config.js</code></p>
+  </div>
+  <div class="success" id="main" style="display: none">
+    <div id="results"></div>
+    <h1>All good!</h1>
+  </div>
+</body>
+</html>
