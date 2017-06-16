@@ -5,9 +5,9 @@
 // window['process'] = { env: { 'NODE_ENV': 'dev' }};
 
 System.config({
-	paths: {
+  paths: {
     redux: 'node_modules/redux/dist/redux.min.js',
-		'typescript-fsa': 'node_modules/typescript-fsa/lib/index.js',
+    'typescript-fsa': 'node_modules/typescript-fsa/lib/index.js',
     'typescript-fsa-reducers': 'node_modules/typescript-fsa-reducers/dist/index.js'
-	}
+  }
 });
