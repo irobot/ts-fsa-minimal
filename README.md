@@ -1,13 +1,13 @@
-#Purpose
+## Purpose
 
 This is a demonstration of an issue with typescript-fsa.  
 See [https://github.com/aikoven/typescript-fsa/issues/30]()
 
-#Installation
+## Installation
 
 `npm install https://github.com/irobot/ts-fsa-minimal`
 
-#Usage
+## Usage
 
 `npm run serve`
 
